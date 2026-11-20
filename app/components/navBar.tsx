@@ -29,15 +29,14 @@ export default function Navbar() {
           : "bg-white/90 supports-[backdrop-filter]:bg-white/70"
       }`}
     >
-      <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto flex min-h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <a href="/" className="flex items-center">
           <Image
             src={Logo}
             alt="Company logo"
-            width={300}
-            height={300}
-            className="h-15 w-auto object-contain"
+            width={500}
+            className="h-20 w-auto object-contain"
             priority
           />
         </a>

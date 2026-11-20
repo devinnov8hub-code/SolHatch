@@ -577,9 +577,9 @@ export default function Home() {
                 <Image
                   src={Logo}
                   width={140}
-                  height={60}
+                
                   alt="SolHatch logo"
-                  className="h-12 w-auto object-contain"
+                  className="h-25 w-auto object-contain"
                 />
               </a>
 
