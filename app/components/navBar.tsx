@@ -35,8 +35,9 @@ export default function Navbar() {
           <Image
             src={Logo}
             alt="Company logo"
-            width={100}
-            className="h-9 w-auto object-contain"
+            width={300}
+            height={300}
+            className="h-15 w-auto object-contain"
             priority
           />
         </a>
